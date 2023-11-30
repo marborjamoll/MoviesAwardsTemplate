@@ -8,6 +8,7 @@
     3. [Table: Directed_by](#directed_by)
     4. [Table: Performed_by](#performed_by)
     5. [Table: Award](#award)
+3. [Queries](#queries)
 
 ## 1. Create the database and insert data <a name="ddl"></a>
 
