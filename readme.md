@@ -85,13 +85,13 @@ We can see Christopher Nolan is the only one who has directed two movies.
 
 **Table: Award <a name="award"></a>
 
-| id | award | year | movie | person
-| ----- | ------ |
+| id | award | year | movie | person |
+| -- | ----- | ---- | ----- | ------ |
 | 1 | Óscar Mejor Actor de Reparto | 2008 | Batman | Heath Ledger |
 | 2 | MVT Movie Awards Mejor Villano | 2009 | Batman | Heath Ledger |
 | 3 | Globo de oro al mejor actor de reparto | 2009 | Batman | Heath Ledger |
 | 4 | Premios Empire Mejor Director | 2009 | Batman | Christopher Nolan |
-| 5 | MVT Movie Awards Mejor Interpretación Masculina | 2004 | Johnny Deep |
+| 5 | MVT Movie Awards Mejor Interpretación Masculina | 2004 | Piratas del caribe | Johnny Deep |
 | 6 | Premio Empire al Mejor Actor | 2004 | Piratas del Caribe | Johnny Deep |
 | 7 | Óscar Mejor Actor de Reparto | 1997 | Shine | Geoffrey Rush |
 
@@ -102,32 +102,113 @@ Generate the queries in order to solve the next questions.
 
 **1. How many movies we have in the database?**
 
+Set the column name as `total_movies`.
+
+```
+    Put your solution here.
+```
+<br />
+
 **2. Show the movies (title and synopsis) ordered by title (A-Z).**
+```
+    Put your solution here.
+```
+<br />
 
 **3. How many people we have in the database?**
 
+Set the colum name as `total_people`.
+```
+    Put your solution here.
+```
+<br />
+
 **4. How many people are actors?**
+
+Set the colum name as `total_actors`.
+```
+    Put your solution here.
+```
+<br />
 
 **5. Who are the actors?**
 
+Show the name and surname.
+```
+    Put your solution here.
+```
+
+If your want to show the name and surname together in the same column like `Name Surname` or `Surname, Name` you can use the function `CONCAT`.
+
+<br />
+
 **6. How many people are directors?**
 
+Set the colum name as `total_directors`.
+```
+    Put your solution here.
+```
+<br />
+
 **7. Who are the directors?**
+```
+    Put your solution here.
+```
+<br />
 
 **8. Movies with awards**
 
+Show the names of the movies with awards and don't repeat the names.
+```
+    Put your solution here.
+```
+<br />
+
 **9. Movies with 'Óscar'**
+
+Tip: Find the movies which award name contains the word 'Óscar'
+```
+    Put your solution here.
+```
+<br />
 
 **10. Directors with awards**
 
+Show the names of the directors with awards and don't repeat the names.
+```
+    Put your solution here.
+```
+<br />
+
 **11. Actors with awards**
+
+Show the names of the actors with awards and don't repeat the names.
+```
+    Put your solution here.
+```
+<br />
 
 **12. Actors with the price 'Mejor Actor'**
 
+Tip: Find the persons which award name contains the word 'Mejor Actor'
+```
+    Put your solution here.
+```
+<br />
+
 **13. There is any actor with more than 2 awards?**
 
-**14. Who are the actors with more than two awards?**
+Show the name of the actors with at least two awards.
+```
+    Put your solution here.
+```
+<br />
 
-**15. Award, Actor and Movie of the actors with more than two awards**
 
+**14. Award, Actor and Movie of the actors with more than two awards**
+
+```
+    Put your solution here.
+```
+<br />
 
