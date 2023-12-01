@@ -20,7 +20,7 @@ This script will:
 
 ## 2. Understand the data <a name="data"></a>
 
-**Table: Movie <a name="movie"></a>
+**Table: Movie** <a name="movie"></a>
 
 | id | title | synopsis |
 | -- | ----- | -------- |
@@ -30,7 +30,7 @@ This script will:
 | 4 | Trascendence | El Dr. Will Caster, la mayor autoridad del mundo en inteligencia artificial, está llevando a cabo experimentos muy controvertidos para crear una máquina muy especial. |
 
 
-**Table: Person <a name="person"></a>
+**Table: Person** <a name="person"></a>
 
 | id | name | surname | birthday_date | *comment* |
 | -- | ---- | ------- | ------------- | ------ |
@@ -52,7 +52,7 @@ This script will:
 
 > The column **comment** doesn't exists in the database, is just a informative comment to understand the data.
 
-**Table: Directed_by <a name="directed_by"></a>
+**Table: Directed_by** <a name="directed_by"></a>
 
 Directors of movies table:
 
@@ -65,7 +65,7 @@ Directors of movies table:
 
 We can see Christopher Nolan is the only one who has directed two movies.
 
-**Table: Performed_by <a name="performed_by"></a>
+**Table: Performed_by** <a name="performed_by"></a>
 
 | movie | person |
 | ----- | ------ |
@@ -83,7 +83,7 @@ We can see Christopher Nolan is the only one who has directed two movies.
 | Trascendence | Rebecca Hall |
 | Trascendence | Paul Bettany |
 
-**Table: Award <a name="award"></a>
+**Table: Award** <a name="award"></a>
 
 | id | award | year | movie | person |
 | -- | ----- | ---- | ----- | ------ |
